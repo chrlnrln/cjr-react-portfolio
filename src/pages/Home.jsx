@@ -1,3 +1,5 @@
+import profileImage from "../assets/img/profile.png";
+
 function Home() {
 
     const handleExplore = () => {
@@ -42,7 +44,10 @@ function Home() {
             </div>
 
             <div className="home-portrait">
-                CJ
+                <img
+                    src={profileImage}
+                    alt="Profile Image"
+                />
             </div>
 
         </section>
