@@ -5,10 +5,9 @@ import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-// import Projects from "./pages/Projects";
-// import Gallery from "./pages/Gallery";
-// import Gallery from "./pages/Services";
-// import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 import "./App.css";
 
@@ -31,10 +30,9 @@ function App() {
 			<main>
 				<Home />
 				<About />
-				{/* <Projects onProjectSelect={handleProjectSelect} />
-				<Gallery onProjectSelect={handleProjectSelect} />
+				<Projects onProjectSelect={handleProjectSelect} />
 				<Services />
-				<Contact /> */}
+				<Contact />
 			</main>
 
 			<Footer />

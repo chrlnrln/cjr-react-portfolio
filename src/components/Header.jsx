@@ -8,7 +8,6 @@ function Header() {
         "Home",
         "About",
         "Projects",
-        "Gallery",
         "Services",
         "Contact",
     ];
